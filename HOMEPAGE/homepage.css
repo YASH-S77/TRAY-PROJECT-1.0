@@ -5,6 +5,12 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
+body{
+    background-image: url('background.png');
+    background-size: cover;
+}
+/* Below Code is for styling of Top Navbar Of the Homepage */
+
 #navbar{
     height: 3.6rem;
     width: 100%;
@@ -47,10 +53,16 @@
     color: black;
     font-weight: 400;
 }
-body{
-    background-image: url('background.png');
-    background-size: cover;
+
+/* This code is for styling of main content of the homepage */
+
+main{
+    position: absolute;
+    top: 3.6rem;
 }
+
+
+/* Below Code is for styling of the Footer Of the Homepage */
 
 .container{
     background-color:#D4F1F4;
@@ -59,6 +71,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     line-height: 1.5;
+    border-radius: 10px;
 }
 ul{
     list-style: none;
@@ -66,7 +79,10 @@ ul{
 }
 .footer{
     background-color: #D4F1F4;
-    padding: 70px 0;
+    width: 100%;
+    padding: 10px 0 20px 0;
+    position: absolute;
+    bottom: 0;
 }
 
 .foot-col{
@@ -84,10 +100,8 @@ ul{
 }
 .foot-col h4{
     font-size: 18px;
-    text-transform: capitalize;
     margin-bottom: 30px;
     font-weight: 500;
-    position: relative;
 }
 .Company{
     width: 100px;
@@ -95,9 +109,39 @@ ul{
 .Courses{
     width: 100px;
 }
-.follow{
-    width: 150px;
+
+.copyrights{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
-/* .centres{
-    width: 80px;
-} */
+.rights-content{
+    display: flex;
+    padding-right: 3%;
+}
+.terms{
+    padding-left: 3%;
+}
+.c-icon{
+    padding: 5px;
+}
+.terms a{
+    padding: 7px;
+}
+.rights-content p{
+    padding-left: 7px;
+    padding-right: 5px;
+}
+ul i{
+    font-size: 20px;
+    margin-right: 8px;
+}
+hr{
+    margin-top: 15px;
+    color: brown;
+}
+ul a {
+    font: size 1.5em;
+    color: black;
+}
