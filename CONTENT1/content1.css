@@ -2,3 +2,32 @@
     padding: 0px;
     margin: 0px;   
 }
+
+.content{
+    border: 2px solid black;
+    
+}
+
+#BOX1 {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+}
+
+#BOX2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+#BOX3{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+#BOX4{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
