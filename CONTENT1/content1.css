@@ -216,16 +216,13 @@ ul{
     padding-left: 10px;
 }
 
-.social-links a{
+.social-links a {
     display: block;
     height: 40px;
     width: 40px;
-    background-color: transparent);
-    margin-right: 10px;
+    background-color: transparent;
+    margin-right: 10px; 
     margin: 0 10px 10px 0;
-    line height: 40px;
-    color: whitesmoke;
-
 }
 
 .social-links h4{
@@ -238,9 +235,4 @@ ul{
 
 .flex p{
     object-fit: scale-down;
-}
-
-.card h1{
-    display: flex;
-    align-content: center;
 }
