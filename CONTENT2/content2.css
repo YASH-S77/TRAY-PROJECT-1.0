@@ -1,5 +1,244 @@
 *{
     padding: 0px;
-    margin: 0px;  
+    margin: 0px;   
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: #24262b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 15px;
+    padding-left:  15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+
+}
+
+.logo a{
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+button:hover{
+    margin-left: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    padding: 10.5px;
+    width: 90.5px;
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    color: whitesmoke;
+}
+
+li a{
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+button{
+    color: white;
+    background-color: #D4F1F4;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;   
+    color: black;
+    font-weight: bold;
+}
+
+button a{
+    color: rgb(10, 6, 223);
+    font-weight: bold;
+    font-size: 35px;
+}
+
+/* body{
+    background-color: #e91e63  ;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    min-height: 100vh;
+} */
+
+.container{
+    padding: 2rem 5%; 
+    background-color: #eef5f6;  
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.card{
+    background: #fff;
+    padding: 15px 20px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 5);
+    flex: 1 0 20em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card h1{
+    height: 50px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: black;
+    display:inline-flex;
+    justify-content: center;
+    font-size: 2.4rem;   
+}
+
+
+.card p{
+    text-align: justify;
+    line-height: 130%;
+    margin-bottom: 20px;
+    padding: 2px;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: lightgrey;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s ease-in-out;
+    border-radius: 5px;
+    border: 1px solid #D4F1F4;
+    margin: 10px 0;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #000;
+}
+
+.footer
+{
+    background-color: #24262b;
+    box-sizing: border-box;
+    padding: 70px 0; 
+}
+
+.container1{
+    max-width: 1170px;
+    background-color: #24262b;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+
+}
+
+ul{
+  list-style: none;  
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    /* background-color: red; */
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+    
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+    color: whitesmoke;
+
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.social-links a {
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    margin-right: 10px; 
+    margin: 0 10px 10px 0;
+}
+
+.social-links h4{
+    color: whitesmoke;
+
+}
+
+.social-links a{
+    color: whitesmoke;
+}
+
+.footer-col ul li a{
+    color: #bbbbbb;
+}
+
+.flex p{
+    object-fit: scale-down;
 }
 
