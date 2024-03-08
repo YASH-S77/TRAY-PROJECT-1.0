@@ -110,6 +110,11 @@ button a{
     font-size: 2.4rem;   
 }
 
+.card img{
+    height: 400px;
+    width: 350px;
+}
+
 
 .card p{
     text-align: justify;
@@ -241,4 +246,5 @@ ul{
 .flex p{
     object-fit: scale-down;
 }
+
 
