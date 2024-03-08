@@ -89,7 +89,10 @@ button a{
     flex-wrap: wrap;
     gap: 1.5rem;
 }
-
+.card img{
+    height: 400px;
+    width: 350px;
+}
 .card{
     background: #fff;
     padding: 15px 20px;
