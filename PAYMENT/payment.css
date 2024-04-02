@@ -102,4 +102,15 @@ label .imgName{
     display: block ;
 }
 
- 
+.imgContainer{
+    display: flex;
+    align-items: center;
+    object-fit: scale-down;
+ }
+
+ .imgContainer upi{
+    display: flex;
+    align-items: center ;
+    object-fit: scale-down;
+
+ }
