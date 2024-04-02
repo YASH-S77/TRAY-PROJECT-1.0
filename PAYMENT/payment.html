@@ -57,6 +57,33 @@
         </div>
     </form>
 </div>
+<style>
+    .proceed-button {
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .proceed-button:hover {
+      background-color: #45a049;
+    }
+    .arrow {
+      display: inline-block;
+      margin-left: 10px;
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      padding: 3px;
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+  </style>
+
 
 
 </head>
@@ -66,6 +93,8 @@
     <div class="footernext">
         <button>PROCEED</button>
     </div> -->
+
+    <button class="proceed-button">Proceed <span class="arrow"></span></button>
 
 </footer>
 </body>
