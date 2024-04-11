@@ -1,0 +1,120 @@
+.headline{
+    background-color: #03334d;
+    color: rgb(204, 245, 248);
+    width: 97%;
+    font-size: 5vh;
+    height: auto;
+    position: relative;
+    top: 5vh;
+    /* padding-left: 3%; */
+    text-align: center;
+}
+.container{
+    background-color:#ACE2E1;
+    width: 35vw;
+    height: 60vh;
+    position:relative;
+    display: inline-block;
+    top: 15vh;
+    left: 5%;
+    border: 1px solid;
+    overflow: hidden;
+}
+.pic{
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 0px;
+    background-image: url('engg image.webp');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 1px solid;
+}
+.heading{
+    background-color:#073a55;
+    color:rgb(204, 245, 248);
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-style: oblique;
+    width: 100%;
+    height:auto;
+    padding-bottom:5%;
+    margin: 0%;
+    text-align:center;
+    font-size: 4vh;
+    padding-top: 2%;
+    /* text-indent: 1%; */
+}
+.descrip{
+    background-color:#4cb9f3;
+    color: rgb(8, 18, 19);    
+    width: 100%;
+    height: auto;  
+    text-align:left;
+    margin: 0%;
+    border-top: 2px solid black;
+    font-size: 3vh;
+}
+ul{
+    margin-left: 1em;
+    margin-top: 0em;
+    padding: 0;
+   
+}
+.price{
+    /* background-color: rgb(137, 205, 245); */
+    color: rgb(37, 3, 116);
+    text-decoration: underline;
+    position: relative;
+    left: 5%;
+}
+button{
+    background-color: rgb(4, 102, 21);
+    color: antiquewhite;
+    position: relative;
+    left: 70%; 
+    
+}
+.container2{
+    background-color:#ACE2E1;
+    width: 35vw;
+    height: 60vh;
+    display: inline-block;
+    position: relative;
+    top:15vh;
+    left: 20%;
+    border: 1px solid;
+    overflow: hidden;
+}
+.pic2{
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 0px;
+    background-image: url('medical pic.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 1px solid;
+}
+.heading2{
+    background-color:#073a55;
+    color: rgb(204, 245, 248);
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-style: oblique;
+    width: 100%;
+    height:auto;
+    padding-bottom:5%;
+    margin: 0%;
+    text-align:center;
+    font-size: 4vh;
+    padding-top: 2%; 
+}
+.descrip2{
+    background-color: #4cb9f3;
+    color: rgb(8, 18, 19);    
+    width: 100%;
+    height: auto;  
+    text-align:left;
+    margin: 0%;
+    border-top: 2px solid black;
+    font-size: 3vh;
+}
